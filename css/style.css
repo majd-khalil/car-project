@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+body{
+    font-family: 'Almarai', sans-serif;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    line-height: 50px;
+}
+.header p {
+    float: right;
+}
+
+/*start slider*/
+
+.carousel-indicators li{
+    height: 10px;
+    background-color: black;
+}
+/*lal tdlil bndalil lsora*/
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(188, 189, 181, 0.116);
+    position: absolute;
+    z-index: 1;
+}
+
+/* end slider*/
+
+/* start features*/
+.features{
+    margin: 75px;
+}
+
+.features i {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.features h3 {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features p{
+    color: rgb(73, 72, 72);
+    line-height: 1.8;
+}
+
+.features h2{
+    margin-bottom: 20px;
+}
+/* end features*/
+
+/*start out team*/
+
+.our-team{
+    background-color: #eee;
+    padding: 20px;
+    background-image: url(../images/);
+    border-bottom:5px solid rgb(4, 175, 228);
+}
+/*end our team*/
+
+/*start statistic*/
+
+.statistic{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+
+.statistic .dverlay{
+    padding-top: 100px;
+    background-color:rgba(160, 156, 156, 0.37);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.statistic .dverlay h3{
+    color: black;
+}
+
+.statistic .dverlay{
+    color: red;
+    font-size: 40px;
+}
+
+.polo{
+    color: black;
+    font-size: 20px;
+}
+/*end statistic*/
+
+
+
+/* start coustomer*/
+
+.our-customers{
+    margin-bottom: 100px;
+    background-color: #eee;
+    line-height: 100px;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:5px solid rgb(4, 175, 228);
+}
+/* end coustomer*/
+
+
+/*start resent news*/
+
+.resent_news .btn-danger {
+    color: #fff;
+    background-color: #356edc;
+    border-color: #356edc;
+}
+/*end resent news*/
+
+/*start footer*/
+
+footer{
+    background-color: rgb(4, 175, 228);
+    padding: 30px;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: red;
+}
+
+footer ul li {
+    list-style: none;
+}
+/*end footer*/
+
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blog_info{
+    flex 2
+}
+
+.jumbotron .blog_image{
+    flex 2
+}
+
+.blog_details p {
+    line-height: 1.2;
+    padding: 10px;
+}
